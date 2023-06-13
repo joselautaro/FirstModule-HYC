@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    /* Propiedad: valor */
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
+/* Estilos a la sección principal */
+
+.div-container{
+    background-color: chocolate;
+    /* height: 900px; */
+    padding: 10px;
+}
+
+.div-hijo{
+    background-color: deeppink;
+    padding: 5px;
+    /* height: 400px; */
+    margin: 10px;
+    width: 25%;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    height: 250px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.div-container > .div-hijo > p{
+    color: darkgreen;
+    font-size: larger;
+}
