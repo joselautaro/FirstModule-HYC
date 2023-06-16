@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AC/DC - Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- Enlaces relativos y enlaces absolutos -->
+
+    <!-- Enlaces relativos: nos llevan hacia algun enlace que está dentro de nuestro proyecto -->
+
+    <!-- Enlaces absolutos: nos llevan hacia algún enlace externo a nuestro proyecto -->
+    <header>
+        <nav>
+            <a href="../index.html"> Inicio </a>
+            <a href="contacto.html"> Contacto </a>
+            <a href="nosotros.html"> Nosotros </a>
+            <a href="https://www.google.com" target="_blank"> Ir a Google </a>
+        </nav>
+    </header>
+
+    <h1>Contacto</h1>
+
+    <!-- Formularios -->
+
+    <fieldset>
+
+        <legend>Formulario de contacto</legend>
+
+        <form action="#" method="post">
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="ingrese su email" required>
+            </div>
+            <div>
+                <label for="password"> Contraseña: </label>
+                <input type="password" placeholder="ingrese contraseña">
+            </div>
+            <div>
+                <label for="numero">Numero de celular: </label>
+                <input type="number">
+            </div>
+            <div class="edad">
+                <label> Marque su rango de edad</label>
+                <input type="radio" value="option1" name="option">
+                <label for="radio1">Opción 1: 18 a 25 años</label>
+                <input type="radio" value="option2" name="option">
+                <label for="radio2">Opción 2: 26 a 32 años</label>
+                <input type="radio" value="option3" name="option">
+                <label for="radio3">Opción 3: 33 a 40 años</label>
+            </div>
+            <div>
+                <label>Ganar en dolares?</label>
+                <label for="option1">Si</label>
+                <input type="checkbox">
+                <label for="option2">No</label>
+                <input type="checkbox">
+                <label for="option3">Lo pensaré</label>
+                <input type="checkbox">
+            </div>
+            <div>
+                <label for="dropdown">Elegi tu smartphone:</label>
+                <select>
+                    <option>Seleccione aquí</option>
+                    <option value="opcion1">Samsung</option>
+                    <option value="option2">Motorola</option>
+                    <option value="option3">Nokia 1100</option>
+                </select>
+            </div>
+            <div>
+                <label for="file">Adjuntar archivos</label>
+                <input type="file">
+            </div>
+            <div>
+                <label for="textarea">Escribir comentario:</label>
+                <div>
+                    <textarea cols="30" rows="10" placeholder="escriba aquí"></textarea>
+                </div>
+            </div>
+            
+            <button type="reset">Resetear</button>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </fieldset>
+
+
+
+
+</body>
+
+</html>
