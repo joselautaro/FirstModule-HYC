@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-properties{
+    height: 300px;
+    width: 100%;
+    background-color: #f1f1f1;
+    /* Vinculamos url directamente a la hoja css */
+    background-image: url('../media/React.jpg');
+    /* Evitamos que la imagen se repita por default */
+    background-repeat: no-repeat;
+    /* Centramos la imagen */
+    background-position: center;
+    /* background-attachment: fixed; */
+    /* Cubre al 100 */
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: #f1f1f1f1;
+}
+
+.border-properties{
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.border-properties:hover{
+    color: aliceblue;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box-shadow-properties{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.box-shadow-properties:hover{
+    box-shadow: 0px 0px 10px rgb(11, 12, 13);
+    background-color: rgb(0, 0, 0);
+    color: #f1f1f1;
+}
