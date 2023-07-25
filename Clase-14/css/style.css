@@ -12,16 +12,18 @@
 .menu ul{
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
+    justify-content: space-around;
+    padding: 5px;
 }
 .menu li{
+    display: flex;
+    justify-content: space-around;
     position: relative;
 }
 .menu li a{
     text-decoration: none;
     color: #333;
-    padding: 10px 20px;
+    padding: 5px;
     display: block;
 }
 .menu li a:hover{
@@ -48,3 +50,6 @@
 .menu li:hover .submenu{
     display: block;
 }
+
+/* Estilos al modal */
+
