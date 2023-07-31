@@ -1,0 +1,72 @@
+/* Estilos generales */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para el fondo del menú */
+.navbar{
+    background-color: black;
+}
+
+/* Estilos para el logotipo */
+.navbar-brand{
+    color: rgb(128, 56, 104);
+    flex: 1;
+}
+/* Estilos para enlaces del menu */
+.navbar-nav .nav-link{
+    color: rgb(93, 5, 93);
+    font-weight: 600;
+    padding: 10px 20px;
+}
+.navbar-nav .nav-link:hover{
+    color: aliceblue;
+}
+/* Estilos para el botón de hamburguesa en pantallas pequeñas */
+.navbar-toggler-icon{
+    filter: invert(100%);
+}
+
+/* Estilos para el contenedor del menu */
+.navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+/* Estilos para el botón del menu en pantallas pequeñas */
+.navbar-toggler{
+    display: none;
+}
+
+/* MeidaQuery para mostrar el botón de hamburguesa en pantallas pequeñas */
+
+@media (max-width: 767px){
+    .navbar-toggler{
+        display: block;
+    }
+    .navbar-collapse{
+        display: none;
+    }
+    .navbar-nav{
+        flex-direction: column;
+    }
+    .navbar-collapse.show{
+        display: flex;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-toggler{
+        display: block;
+    }
+    .navbar-collapse{
+        display: none;
+    }
+    .navbar-nav{
+        flex-direction: column;
+    }
+    .navbar-collapse.show{
+        display: flex;
+    }
+}
