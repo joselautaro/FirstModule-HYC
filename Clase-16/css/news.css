@@ -1,0 +1,32 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: #f5f5f5; */
+    margin: 0;
+    padding: 0;
+}
+.newsletter-table{
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.newsletter-table th{
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    text-align: left;
+}
+.newsletter-table td{
+    padding: 10px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.newsletter-table tr:nth-child(even){
+    background-color: #7c2b2b;
+}
+.newsletter-table tr:nth-child(even):hover{
+    background-color: #3f2b7c;
+    color: #f2f2f2;
+}
